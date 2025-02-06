@@ -24,7 +24,7 @@ contract ERC1155Test is Test {
 
     function testSetOfSafeTransferFromValid() public {
         for (uint160 owner_id = 1; owner_id <= 3; owner_id++) {
-            for (uint160 recipient_id = 1; recipient_id <= 3; recipient_id++) {
+            for (uint160 recipient_id = 1; recipient_id <= 4; recipient_id++) {
                 for (uint256 id = 1; id <= 5; id++) {
                     for (uint256 value = 1; value <= 10; value++) { // value > 0
                         address owner = address(owner_id);
