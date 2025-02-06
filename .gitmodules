@@ -1,0 +1,12 @@
+[submodule "Smart_Contracts/tests/OPERC20/lib/forge-std"]
+	path = Smart_Contracts/tests/OPERC20/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Smart_Contracts/tests/OPERC20/lib/openzeppelin-contracts"]
+	path = Smart_Contracts/tests/OPERC20/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "Smart_Contracts/tests/White-box/lib/forge-std"]
+	path = Smart_Contracts/tests/White-box/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Smart_Contracts/tests/White-box/lib/openzeppelin-contracts"]
+	path = Smart_Contracts/tests/White-box/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
